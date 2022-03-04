@@ -2,14 +2,14 @@ export const projects = [
   {
     title: 'Vexplore-mvp',
     description: "Built the minimum viable product livestreaming platform for virtual tourism start-up company Vexplore",
-      image: '/images/schoolsite.png',
+      image: '/images/vexplore-mvp.png',
       tags: ['Mongo', 'Express', 'React', 'Node',],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: null,
+    visit: 'https://vexplore-mvp.netlify.app',
     id: 0,
   },
   {
-    title: 'E-Commerce',
+    title: 'Simon-Game',
     description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
     image: '/images/2.png',
     tags: ['React', 'JavaScript'],
