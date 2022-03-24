@@ -1,12 +1,12 @@
 import React from 'react';
-import { DiFirebase, DiMongodb, DiNodejs, DiReact, DiZend } from 'react-icons/di';
+import { DiMongodb, DiNodejs, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
   <SectionDivider />
-  <SectionTitle>Technologies</SectionTitle>
+  <SectionTitle main>Technologies</SectionTitle>
   <SectionText>
     I've focused mainly on web development so far. The MERN stack is my preffered method of development and I've outlined some of the technologies that
     I've used below.  
@@ -31,7 +31,8 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle>Backend</ListTitle>
         <ListParagraph>
-          Node
+          Node<br/>
+          Express
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -56,10 +57,12 @@ const Technologies = () =>  (
       </ListContainer>
     </ListItem>
   </List>
+  <SectionTitle>Team Fit</SectionTitle>
   <SectionText>
-    Apart from this I know that the ability to work with peers is important and this is something that I have experience
-    with in developing some of the projects you see on my Github. During my internship I was part of an agile team that worked
-    together to achieveproject goals.   
+
+    The ability to work with peers is important and this is something that I am good at and have experience
+    with in developing some of the projects on my Github. During my internship I was part of an agile team that worked
+    together to achieve project goals.   
   </SectionText>
   </Section>
 );

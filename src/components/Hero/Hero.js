@@ -3,6 +3,7 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import Link from 'next/link';
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -12,9 +13,9 @@ const Hero = (props) => (
         Ronald Chittinappilly
       </SectionTitle>
       <SectionText>
-      I am a software developer that loves learning new things and am pretty keen to get stuck into a variety of different things.
+      ... and I am a Software Developer. <br/><br/>
+      Keep scrolling to learn a bit more about me. 
       </SectionText>
-      <Button onClick={()=> window.location= "https://google.com"}>Learn More</Button>
     </LeftSection>
   </Section>
 );

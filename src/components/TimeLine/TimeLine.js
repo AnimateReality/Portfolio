@@ -44,8 +44,11 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
-      <SectionText>blah blah</SectionText>
+    <SectionDivider/>
+      <SectionTitle main>About Me</SectionTitle>
+      <SectionText>I enjoy playing sports and actively participate in playing badminton as well as 
+      other hobbies such as table tennis, piano and juggling. In my downtime, I also like researching 
+      and getting involved with cryptocurrencies and blockchain technology. </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => ( 
