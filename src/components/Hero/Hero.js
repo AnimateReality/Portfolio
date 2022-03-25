@@ -13,7 +13,7 @@ const Hero = (props) => (
         Ronald Chittinappilly
       </SectionTitle>
       <SectionText>
-      ... and I am a Software Developer. <br/><br/>
+      and I am a Software Developer. <br/><br/>
       Keep scrolling to learn a bit more about me. 
       </SectionText>
     </LeftSection>
