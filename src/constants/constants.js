@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'School site',
-    description: "This is a learning management system site built with React. It connected to a (expired) MySQL database hosted by aws with student and admin login to access different functionality within the site.",
+    description: "This is a learning management system site built with React. It connected to a (expired) MySQL database hosted by aws with student and admin login to access different functionality within the site. (Code only- no Website)",
     image: '/images/schoolsite.png',
     tags: ['MySQL', 'Express', 'React', 'Nodejs'],
     source: 'https://github.com/AnimateReality/missionxfinal',

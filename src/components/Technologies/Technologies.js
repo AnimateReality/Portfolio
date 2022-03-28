@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiMongodb, DiNodejs, DiReact, DiZend } from 'react-icons/di';
+import { DiMongodb, DiNodejs, DiReact, DiCode } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -9,7 +9,7 @@ const Technologies = () =>  (
   <SectionTitle main>Technologies</SectionTitle>
   <SectionText>
     I've focused mainly on web development so far. The MERN stack is my preffered method of development and I've outlined some of the technologies that
-    I've used below.  
+    I have experience using below.  
   </SectionText>
   <List>
     <ListItem>
@@ -21,6 +21,7 @@ const Technologies = () =>  (
           CSS<br/>
           JavaScript<br/>
           React<br/>
+          Bootstrap<br/>
           Material UI<br/>
 
         </ListParagraph>
@@ -48,7 +49,7 @@ const Technologies = () =>  (
       </ListContainer>
     </ListItem>
     <ListItem>
-      <DiMongodb size="3rem" />
+      <DiCode size="3rem" />
       <ListContainer>
         <ListTitle>Others - Testing, Devops etc.</ListTitle>
         <ListParagraph>
