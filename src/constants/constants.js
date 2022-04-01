@@ -18,12 +18,12 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'School site',
-    description: "This is a learning management system site built with React. It connected to a (expired) MySQL database hosted by aws with student and admin login to access different functionality within the site. (Code only- no Website)",
-    image: '/images/schoolsite.png',
-    tags: ['MySQL', 'Express', 'React', 'Nodejs'],
-    source: 'https://github.com/AnimateReality/missionxfinal',
-    visit: 'https://github.com/AnimateReality/missionxfinal',
+    title: 'Quiz App',
+    description: "App made with TypeScript in React and utilizes the Open Trivia API in order to create a 10 question multiple choice quiz app. The score will update if you get a question correct and the app resets after the 10 questions are done.",
+    image: '/images/quizapp.png',
+    tags: ['React', 'Typescript', 'HTML', 'CSS'],
+    source: 'https://ronald-typescript-quiz.netlify.app/',
+    visit: 'https://github.com/AnimateReality/Typescript-quiz',
     id: 2,
   },
 
