@@ -58,12 +58,11 @@ const Technologies = () =>  (
       </ListContainer>
     </ListItem>
   </List>
-  <SectionTitle>Team Fit</SectionTitle>
+  <SectionTitle>Team Collaboration</SectionTitle>
   <SectionText>
 
-    The ability to work with peers is important and this is something that I am good at and have experience
-    with in developing some of the projects on my Github. During my internship I was part of an agile team that worked
-    together to achieve project goals.   
+    I get along well with my peers and have experience
+    with working alongside other developers, UX/UI designers and project leads for many of the projects I've worked on.
   </SectionText>
   </Section>
 );

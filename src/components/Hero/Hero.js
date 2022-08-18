@@ -9,12 +9,12 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hi, I am <br />
-        Ronald Chittinappilly
+        I'm Ronald, I'm a <br />
+        Software Developer
       </SectionTitle>
       <SectionText>
-      and I am a Software Developer. <br/><br/>
-      Keep scrolling to learn a bit more about me. 
+      I work mainly with web development <br/>
+      Keep scrolling to learn more about me. 
       </SectionText>
     </LeftSection>
   </Section>
